@@ -1,0 +1,62 @@
+.newsong {
+    width: 100vw;
+    /* background-color: pink; */
+}
+
+.newsong .title {
+    font-size: 0.35rem;
+    font-weight: bold;
+    border-left: 0.05rem solid #DF0101;
+    padding-left: 0.2rem;
+    margin-bottom: 0.4rem;
+}
+
+.newsong ul li {
+    display: flex;
+    height: 1.5rem;
+    /* background-color: yellow; */
+    border-bottom: 0.01rem solid #999;
+}
+
+.newsong .left {
+    flex: 4;
+    margin-left: 0.2rem;
+}
+
+.newsong .right {
+    flex: 1;
+    margin-right: 0.2rem;
+    /* background-color: blue; */
+}
+
+.newsong .left .name {
+    font-size: 0.4rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    overflow: hidden;
+}
+
+.newsong .left .bottom {
+    height: 0.4rem;
+}
+
+.newsong .left .bottom span:nth-child(1) {
+    box-sizing: border-box;
+    color: #DF0101;
+    font-size: 0.2rem;
+    border: 1px solid #DF0101;
+    padding: 0 0.05rem;
+}
+
+.newsong .left .bottom span:nth-child(2) {
+    font-size: 0.3rem;
+    margin-left: 0.1rem;
+    color: #333;
+}
+
+.newsong .right span {
+    font-size: 0.6rem;
+    display: block;
+    line-height: 1.5rem;
+    text-align: right;
+}

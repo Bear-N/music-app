@@ -1,0 +1,81 @@
+.hotsong{
+    width: 100vw;
+}
+
+.hotsong .title {
+    font-size: 0.35rem;
+    font-weight: bold;
+    border-left: 0.05rem solid #DF0101;
+    padding-left: 0.2rem;
+    margin-bottom: 0.4rem;
+}
+
+.hotsong ul li {
+    display: flex;
+    height: 1.5rem;
+    /* background-color: yellow; */
+    border-bottom: 0.01rem solid #999;
+}
+
+.hotsong ul li:nth-child(1) .num{
+    color: #DF0101;
+}
+
+.hotsong ul li:nth-child(2) .num{
+    color: #DF0101;
+}
+
+.hotsong ul li:nth-child(3) .num{
+    color: #DF0101;
+}
+
+.hotsong .num{
+    flex: 1;
+    /* background-color: pink; */
+    line-height: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.35rem;
+}
+
+.hotsong .left {
+    flex: 6;
+    margin-left: 0.2rem;
+}
+
+.hotsong .right {
+    flex: 1;
+    margin-right: 0.2rem;
+    /* background-color: blue; */
+}
+
+.hotsong .left .name {
+    font-size: 0.4rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+}
+
+.hotsong .left .bottom {
+    height: 0.4rem;
+}
+
+.hotsong .left .bottom span:nth-child(1) {
+    box-sizing: border-box;
+    color: #DF0101;
+    font-size: 0.2rem;
+    border: 1px solid #DF0101;
+    padding: 0 0.05rem;
+}
+
+.hotsong .left .bottom span:nth-child(2) {
+    font-size: 0.3rem;
+    margin-left: 0.1rem;
+    color: #333;
+}
+
+.hotsong .right span {
+    font-size: 0.6rem;
+    display: block;
+    line-height: 1.5rem;
+    text-align: right;
+}

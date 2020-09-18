@@ -1,0 +1,18 @@
+.tab{
+    display: flex;
+    width: 100vw;
+    height: 1rem;
+    background-color: #fff;
+}
+
+.tab a{
+    flex: 1;
+    text-align: center;
+    line-height: 1rem;
+    color: black;
+    font-size: 0.35rem;
+}
+
+.tab .select{
+    color: #DF0101;
+}

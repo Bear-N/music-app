@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 1.2rem;
+    background-color: #DF0101;
+}
+.header .header-left{
+    line-height: 1.2rem;
+    color: #fff;
+    font-size: 0.35rem;
+}
+
+.header .header-right{
+    line-height: 1.2rem;
+}
+.header .header-right span{
+    border-radius: 0.3rem;
+    padding: 0.12rem 0.3rem;
+    color: #DF0101;
+    background-color: #fff;
+}

@@ -1,0 +1,19 @@
+.show {
+    width: 100vw;
+    height: 3rem;
+    background: url("../../../../assets/img/hot_music_bg_2x.jpg");
+    padding-top: 0.5rem;
+}
+
+.show .icon {
+    width: 3.2rem;
+    height: 1.8rem;
+    background: url(//s3.music.126.net/mobile-new/img/index_icon_2x.png?5207a28…=) no-repeat;
+    background-position: -0.2rem -0.5rem;
+    background-size: 3rem 2rem;
+}
+
+.show .time {
+    color: #fff;
+    padding-left: 0.3rem;
+}
